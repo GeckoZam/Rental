@@ -1,0 +1,8 @@
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.AssemblyInfoInputs.cache
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.AssemblyInfo.cs
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.csproj.CoreCompileInputs.cache
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.RazorAssemblyInfo.cache
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.RazorAssemblyInfo.cs
+C:\Users\samue\source\repos\PropertyRental\PropertyRental\obj\Release\net8.0\PropertyRental.sourcelink.json

@@ -1,0 +1,56 @@
+﻿@model PropertyRental.Models.Property
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crear Reserva</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Crear Reserva</h1>
+        <form asp-action="CreateBooking" method="post" class="mt-4">
+            <div class="form-group">
+                <label asp-for="PropertyId">Id de la Propiedad:</label>
+                <input asp-for="PropertyId" class="form-control" type="number" min="1" required />
+                <span asp-validation-for="PropertyId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="UserId">Id del Usuario:</label>
+                <input asp-for="UserId" class="form-control" type="text" required />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="StartDate">Fecha de Inicio:</label>
+                <input asp-for="StartDate" class="form-control" type="date" required />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Nights">Noches:</label>
+                <input asp-for="Nights" class="form-control" type="number" min="1" required />
+                <span asp-validation-for="Nights" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="TotalCost">Costo Total:</label>
+                <input asp-for="TotalCost" class="form-control" type="number" min="1" required />
+                <span asp-validation-for="Nights" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Crear Reserva</button>
+        </form>
+
+        <hr />
+        <footer class="text-center mt-4">
+            <p>&copy; 2024 PropertyRental</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

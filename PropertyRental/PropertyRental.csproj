@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <BaseOutputPath>C:\Users\samue\source\repos\PropertyRental\PropertyRental\bin\Debug\net8.0\Debug\net8.0\Debug\net8.0</BaseOutputPath>
+  </PropertyGroup>
+
+</Project>
